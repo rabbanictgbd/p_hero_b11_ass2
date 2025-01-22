@@ -18,6 +18,23 @@
     display: flex;
 }
 
+.c_orange{
+    text-decoration: orange;
+    color: orange;
+}
+
+.c_blue{
+    color: blue;
+}
+
+.c_aqua{
+    color: rgb(22, 236, 165);
+}
+
+.c_purple{
+    color: purple;
+}
+
 .space_around{
     justify-content: space-around;
 }
@@ -32,10 +49,16 @@ header li{
 }
 
 button{
-    background-color: coral;
+    background-color: orange;
     border: none;
     border-radius: 10px;
     padding: 10px;
     
     color: white;
+}
+
+@media screen and (max-width: 762px) {
+    .header{
+       display: none; 
+    }
 }
