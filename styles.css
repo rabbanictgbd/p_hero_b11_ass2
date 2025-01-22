@@ -69,7 +69,7 @@ main{
 }
 
 .div_div_stories{
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
 }
 
 .div_stories{
@@ -91,6 +91,10 @@ main{
     
     align-items: center;
     text-align: center;
+}
+
+.stories button{
+    position: -15px;
 }
 
 .div_footer{
