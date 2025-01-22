@@ -54,10 +54,18 @@ main{
     text-align: center;
 }
 
+
 .div_stories{
     display: grid;
-    grid-template-columns: repeat(1fr,2fr);
+    grid-template-columns: repeat(2, 1fr);
 }
+
+.stories_img{
+    margin: 10px;
+    
+    border-radius: 35px;
+}
+
 
 
 .ball{
