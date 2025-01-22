@@ -2,6 +2,10 @@
 
 }
 
+body{
+    padding: 25px;
+}
+
 .quicksand {
     font-family: "Quicksand", serif;
     font-optical-sizing: auto;
@@ -14,6 +18,19 @@
     justify-content: space-between;
     align-items: center;
 }
+
+main{
+    background-image: url(assets/bg.png);
+}
+
+.banner{
+    align-items: center;
+}
+
+.banner div{
+    margin: 20px;
+}
+
 .flex{
     display: flex;
 }
@@ -33,6 +50,10 @@
 
 .c_purple{
     color: purple;
+}
+
+.c_black{
+    background-color: black;
 }
 
 .space_around{
@@ -57,8 +78,34 @@ button{
     color: white;
 }
 
+.card{
+    border-radius: 10px;
+    background-color: aqua;
+    padding: 20px;
+    margin: 25px;
+}
+
 @media screen and (max-width: 762px) {
-    .header{
+   
+   body{
+    padding: 0;
+    margin: 0;
+   }
+    .m_hide{
        display: none; 
+    
+    }
+
+    .m_border{
+        
+        border-bottom: solid orange ;
+        padding: 5px;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        padding: auto;
+    }
+    .banner img{
+        width: 100%;
     }
 }
