@@ -19,6 +19,16 @@ body{
     align-items: center;
 }
 
+header ul{
+    list-style: none;
+   
+}
+
+header li{
+    padding: 10px;
+}
+
+
 main{
     background-image: url(assets/bg.png);
 }
@@ -29,8 +39,36 @@ main{
 
 .banner div{
     margin: 20px;
+
 }
 
+.curriculam{
+    text-align: center;
+}
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    box-shadow:16px 16px 16px gray;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
+.ball{
+    width: 35px;
+    border-radius: 50%;
+    background-color: orange;
+    margin: 5px;
+    color: white;
+}
+.center{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 .flex{
     display: flex;
 }
@@ -60,14 +98,6 @@ main{
     justify-content: space-around;
 }
 
-header ul{
-    list-style: none;
-   
-}
-
-header li{
-    padding: 10px;
-}
 
 button{
     background-color: orange;
@@ -78,11 +108,16 @@ button{
     color: white;
 }
 
-.card{
-    border-radius: 10px;
-    background-color: aqua;
-    padding: 20px;
-    margin: 25px;
+.g_c_blue{
+    background:linear-gradient(to bottom, rgb(188, 202, 248), white);  
+}
+
+.g_c_orange{
+    background: linear-gradient(to bottom, rgb(237, 214, 171), white);
+}
+
+.g_c_purple{
+    background: linear-gradient(to bottom, rgb(232, 178, 231), white);
 }
 
 @media screen and (max-width: 762px) {
@@ -107,5 +142,8 @@ button{
     }
     .banner img{
         width: 100%;
+    }
+    .div_card{
+        flex-direction: column;
     }
 }
