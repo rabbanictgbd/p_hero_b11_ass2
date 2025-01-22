@@ -61,12 +61,20 @@ main{
 }
 
 .stories_img{
-    margin: 10px;
+    margin: 5px;
     
     border-radius: 35px;
 }
 
-
+.img_card{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px;
+    
+    align-items: center;
+    text-align: center;
+}
+}
 
 .ball{
     width: 35px;
